@@ -14,11 +14,11 @@ library(randomForest)  # random forest, also for recursive feature elimination
 library(gridExtra) # save dataframes as images
 library(pROC)
 
-path <- “~/“
-model_name <- "rf-"
+path <- ‘~/‘
+model_name <- ‘rf-‘
 
 # Load the wine dataset
-wine <- read.csv(“~/wine.csv", header = TRUE, sep = ',')
+wine <- read.csv(‘~/wine.csv’, header = TRUE, sep = ',')
 
 df <- data.frame(wine)
 set.seed(1234) 
